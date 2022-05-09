@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/stylesCart.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="./assets/css/responsizeCart.css">
+    <script async type="text/javascript" src="./assets/JS/cart.js"></script>
+</head>
+<body>
+<!-- --------------CART---------------- -->
+    <section class="cart">
+        <div class="container-top">
+        </div>
+        <div class="container-bottom">
+            <div class="cart-content">
+                <!-- -------------cart content left---------------- -->
+                <div class="cart-content-left">
+                    <div class="cart-list">
+                        <!-- -------------content header let---------------- -->
+                        <div class="column-name">
+                            <div class="content">
+                                <div class="checked"><input id="choose-all" type="checkbox" aria-checked="false" value="on"></div>
+                                <div class="cart-yield">Sản phẩm</div>
+                            </div>
+                            <div class="footer">
+                                <div class="column-number width50">Số lượng</div>
+                                <div class="width50"><span class="trash-all-btn">Xóa <i class="fa-solid fa-trash-can"></i></span></div>
+                            </div>
+                        </div>
+                        <!-- -------------list item---------------- -->
+                        <div class="cart-item">
+                            <div class="content">
+                                <div class="checked"><input class="check-btn" type="checkbox" aria-checked="false" value="on"></div>
+                                <div class="cart-item-yield">
+                                    <div><a href="#"><img src="./assets/img/hinh_minh_hoa.jpg" alt="hinh"></a></div>
+                                    <div class="infor-item">
+                                        <a href="#">Cà Phê Sữa Đá</a>
+                                        <p><a href="#">Size: L</a></p>
+                                        <div><span>20.000.000</span><sup> đ</sup></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer footer-item">
+                                <div class="width50">
+                                    <div class="cart-number">
+                                        <div class="change-btn js-minus"><i class="ti-minus"></i></div>
+                                        <div><input class="quantity" type="number" value="1" min="1" max="30"></div>
+                                        <div class="change-btn js-plus"><i class="ti-plus"></i></div>
+                                    </div>
+                                </div>
+                                <div class="width50"><i class="trash-btn fa-solid fa-trash-can"></i></div>
+                            </div>
+                        </div>
+                        <div class="cart-item">
+                            <div class="content">
+                                <div class="checked"><input class="check-btn" type="checkbox" aria-checked="false" value="on"></div>
+                                <div class="cart-item-yield">
+                                    <div><a href="#"><img src="./assets/img/hinh_minh_hoa.jpg" alt="hinh"></a></div>
+                                    <div class="infor-item">
+                                        <a href="#">Cà Phê Sữa Đá</a>
+                                        <p><a href="#">Size: L</a></p>
+                                        <div><span>20.000.000</span><sup> đ</sup></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer footer-item">
+                                <div class="width50">
+                                    <div class="cart-number">
+                                        <div class="change-btn js-minus"><i class="ti-minus"></i></div>
+                                        <div><input class="quantity" type="number" value="1" min="1" max="30"></div>
+                                        <div class="change-btn js-plus"><i class="ti-plus"></i></div>
+                                    </div>
+                                </div>
+                                <div class="width50"><i class="trash-btn fa-solid fa-trash-can"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -------------cart content right---------------- -->
+                <div class="cart-content-pay pay-right">
+                    <div class="cart-pay">
+                        <div class="cart-pay-header">Thanh toán</div>
+                        <div class="cart-total">
+                            <div>Tổng sản phẩm</div>
+                            <div class="total-item">0</div>
+                        </div>
+                        <div class="cart-provisional">
+                            <div>Tổng tiền</div>
+                            <div><span class="total-money">0</span><sup> đ</sup></div>
+                        </div>
+                        <div class="cart-promotion">
+                            <div class="promotion-container">
+                                <input type="text" placeholder="Nhập mã giãm giá">
+                                <button class="apply-btn" type="button">Áp dụng</button>
+                            </div>
+                        </div>
+                        <div class="into-money">
+                            <div>Thành tiền</div>
+                            <div><span class="result-money">0</span><sup> đ</sup></div>
+                        </div>
+                        <div class="cart-payment">
+                            <button class="cart-payment-btn">Thanh toán</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------cart pay bottom---------------- -->
+            <div class="cart-content-pay pay-bottom">
+                <div class="cart-promotion">
+                    <div class="promotion-container">
+                        <input type="text" placeholder="Nhập mã giãm giá">
+                        <button class="apply-btn" type="button">Áp dụng</button>
+                    </div>
+                </div>
+                <div class="pay-bottom-body">
+                    <div class="container-money">
+                        <div class="into-money into-money-bottom">
+                            <div>Thành tiền</div>
+                            <div><span class="result-money-bottom">0</span><sup> đ</sup></div>
+                        </div>
+                    </div>
+                    <div class="container-payment">
+                        <div class="cart-payment">
+                            <button class="cart-payment-btn">Thanh toán (<span class="total-item-bottom">0</span>)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------------cart modal---------------- -->
+    <div class="cart-modal">
+        <div class="modal-container">
+            <div class="modal-header">
+                <div class="header-text">Xóa khỏi giỏ hàng</div>
+                <div class="modal-close"><i class="fa-solid fa-xmark"></i></div>
+            </div>
+            <div class="modal-body">
+                <p class="trash-text">Bạn có muốn loại bỏ sản phẩm này khỏi giỏ hàng không?</p>
+                <div class="dialog-footer">
+                    <button type="button" class="agree-btn">ĐỒNG Ý</button>
+                    <button type="button" class="cancel-btn">HỦY</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------dialog---------------- -->
+    <div class="cart-dialog">
+        <div class="dialog-content">
+            <span><i class="dialog-icon fa-solid"></i></span>
+            <p class="dialog-text"></p>
+        </div>
+    </div>
+</body>
+</html>

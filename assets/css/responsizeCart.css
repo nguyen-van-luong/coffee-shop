@@ -1,0 +1,82 @@
+/* PC */
+@media (min-width: 64em)
+{
+
+}
+
+/* Tablet && Mobli */
+@media (max-width: 63.9375em)
+{
+    .pay-right {
+        display: none;
+    }
+
+    .pay-bottom {
+        display: block;
+    }
+
+    .container-bottom {
+        padding: 80px 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em)
+{
+    .pay-bottom .promotion-container {
+        width: 50%;
+    }
+    
+    .pay-bottom .container-money {
+        flex: 50%;
+    }
+
+    .pay-bottom .container-payment {
+        flex: 50%;
+        margin: 0;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em)
+{
+    .cart-content-left .cart-item {
+        flex-direction: column;
+    }
+
+    .cart-content-left .content {
+        width: 100%;
+    }
+
+    .cart-content-left .cart-item img {
+        width: 80px;
+    }
+
+    .cart-content-left .footer {
+        width: 100%;
+    }
+
+    .cart-content-left .footer-item {
+        margin-top: 5px;
+        padding: 5px;
+        border-top: 1px dashed #dddddd;
+    }
+
+    .column-name .cart-yield,
+    .column-name .column-number {
+        display: none;
+    }
+
+    .column-name {
+        justify-content: space-around;
+    }
+
+    .pay-bottom .promotion-container {
+        width: 100%;
+    }
+
+    .cart-content-left .cart-yield,
+    .cart-content-left .cart-item-yield {
+        flex: 9;
+    }
+}
